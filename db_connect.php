@@ -6,7 +6,7 @@ $password = "root"; // Update with your actual password
 $database = "quiz";
 
 // Create connection (without immediately using a DB)
-$conn = new mysqli($host, $username, $password);
+$conn = new mysqli($host, $username, strlen($password) > 0 ? $password : null);
 
 // Check connection
 if ($conn->connect_error) {
