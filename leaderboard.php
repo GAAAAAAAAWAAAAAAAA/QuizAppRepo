@@ -449,7 +449,7 @@ if ($selectedProjectId) {
 </head>
 <body>
     <header>
-        <a href="home.php" class="home-button">
+        <a href="index.php" class="home-button">
             <i class="fas fa-home"></i>
         </a>
         <h1>Flash Quiz Leaderboards</h1>
@@ -462,7 +462,7 @@ if ($selectedProjectId) {
     </header>
     <nav class="nav-bar fade-in">
         <div class="nav-links">
-            <a href="home.php">🏠 Home</a>
+            <a href="index.php">🏠 Home</a>
             <a href="create.php">✨ Create</a>
             <a href="quiz.php">🎯 Quiz</a>
             <a href="leaderboard.php">🏆 Leaderboards</a>

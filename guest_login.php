@@ -19,8 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['username'] = $nickname;
         $_SESSION['is_guest'] = true;
 
-        // Redirect to home.php
-        header("Location: home.php");
+        // Redirect to index.php
+        header("Location: index.php");
         exit();
     }
 }

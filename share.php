@@ -443,7 +443,7 @@ if (isset($_POST['update_permissions'])) {
 
         <nav class="nav-bar fade-in">
         <div class="nav-links">
-            <a href="home.php">🏠 Home</a>
+            <a href="index.php">🏠 Home</a>
             <a href="create.php">✨ Create</a>
             <a href="quiz.php">🎯 Quiz</a>
             <a href="leaderboard.php">🏆 Leaderboards</a>

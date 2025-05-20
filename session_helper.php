@@ -49,7 +49,7 @@ class SessionHelper {
         }
     }
     
-    public static function redirectIfLoggedIn($redirect_url = 'home.php') {
+    public static function redirectIfLoggedIn($redirect_url = 'index.php') {
         if (self::isLoggedIn()) {
             header("Location: $redirect_url");
             exit();

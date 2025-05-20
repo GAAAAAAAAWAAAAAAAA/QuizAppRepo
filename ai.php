@@ -511,7 +511,7 @@ try {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="home.php"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
                         <li><a href="create.php"><i class="fas fa-plus-circle"></i> Create</a></li>
                         <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
                     </ul>

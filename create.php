@@ -534,7 +534,7 @@ if (isset($_SESSION['current_project_id'])) {
         <!-- Navigation Bar -->
     <nav class="nav-bar fade-in">
         <div class="nav-links">
-            <a href="home.php">🏠 Home</a>
+            <a href="index.php">🏠 Home</a>
             <a href="create.php">✨ Create</a>
             <a href="quiz.php">🎯 Quiz</a>
             <a href="leaderboard.php">🏆 Leaderboards</a>

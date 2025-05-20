@@ -23,7 +23,7 @@
                 SessionHelper::setUserSession($user['user_id'], $user['username'], $email, false);
 
                 
-                header("Location: home.php");
+                header("Location: index.php");
                 exit();
             } else {
                 $loginError = "Invalid password";

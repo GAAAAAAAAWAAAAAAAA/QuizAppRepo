@@ -31,7 +31,7 @@ if ($is_guest && isset($_SESSION['guest_attempt'])) {
     if ($project_result->num_rows > 0) {
         $project_data = $project_result->fetch_assoc();
     } else {
-        header("Location: home.php");
+        header("Location: index.php");
         exit();
     }
     
@@ -74,7 +74,7 @@ if ($is_guest && isset($_SESSION['guest_attempt'])) {
     $attempt_id = isset($_GET['attempt_id']) ? intval($_GET['attempt_id']) : 0;
     
     if ($attempt_id <= 0) {
-        header("Location: home.php");
+        header("Location: index.php");
         exit();
     }
     
@@ -89,7 +89,7 @@ if ($is_guest && isset($_SESSION['guest_attempt'])) {
     $attempt_result = $stmt->get_result();
     
     if ($attempt_result->num_rows == 0) {
-        header("Location: home.php?error=noaccess");
+        header("Location: index.php?error=noaccess");
         exit();
     }
     
@@ -670,7 +670,7 @@ function getOptionText($flashcard_id, $option_label, $flashcards) {
             </div>
             
             <div class="buttons">
-                <a href="home.php" class="btn btn-secondary">
+                <a href="index.php" class="btn btn-secondary">
                     <i class="fas fa-home"></i> Back to Home
                 </a>
                 
